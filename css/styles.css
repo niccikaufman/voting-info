@@ -1,4 +1,4 @@
-#over-18, #under-18, #register-17 {
+#over-18, #under-16, #register, #mail-in-facts, #register-link, #minor-notice{
   display: none;
 }
 
@@ -13,21 +13,20 @@ body {
   text-align: center;
 }
 
-img {
-  margin: 15%;
-  margin-top: 5%;
+.landing-page {
   filter: grayscale(100%);
   transition: .2s ease-in-out;
 }
 
-img:hover {
+.landing-page:hover {
   filter: grayscale(0);
   cursor: pointer;
 }
 
-.card {
+.card, iframe {
   text-align: center;
   background-color: #d5f4e6;
+  margin-top: 5%;
 }
 .card-title {
   text-decoration: underline;
@@ -36,4 +35,12 @@ img:hover {
 a:hover, a:visited {
   cursor: pointer;
   color: #4040a1;
+}
+
+button, button:hover, button:visted {
+  background-color: #4040a1;
+  color: antiquewhite;
+}
+img#mail-in-facts {
+  margin-top: 20%;
 }

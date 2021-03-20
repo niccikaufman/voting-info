@@ -1,18 +1,27 @@
 $(document).ready(function(){
-  $("img#landing-page").click(function() {
-  const age = parseInt(prompt("How old are you"));
+  $("#landing-page").click(function() {
+  const age = parseInt(prompt("How old are you?"));
   
   if (age >= 18) {
-    $('#over-18').show();
+    $('#register').show();
+    $('#register-link').show();
+    $('#mail-in-facts').show();
     $('#landing-page').toggle();
   } if (age === 17) {
-    $('#register-17').show();
+    $('#register').show();
+    $('#minor-notice').show();
+    $('#register-link').show();
+    $('#mail-in-facts').show();
     $('#landing-page').toggle();
   } if (age === 16) {
-    $('#register-17').show();
+    $('#register').show();
+    $('#minor-notice').show();
+    $('#register-link').show();
+    $('#mail-in-facts').show();
     $('#landing-page').toggle();
   } if (age <= 15) {
-    $('#under-18').show();
+    $('#under-16').show();
+    $('#mail-in-facts').show();
     $('#landing-page').toggle();
   }
   })  

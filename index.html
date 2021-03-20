@@ -8,23 +8,41 @@
     <title>Oregon Voting</title>
   </head>
   <body>
-    <img src="img/vote-oregon.png" alt="Vote!" id="landing-page">
-    <div class="container" id="over-18">
-      <div class="jumbotron">
-        <h1>Get registered to vote and find your nearest ballot drop-off station!</h1>
+    <div class="container" id="landing-page">
+      <div class="row">
+        <div class="col-xl-12">
+          <img src="img/vote-oregon.png" alt="Vote!" class="landing-page">
+        </div>
       </div>
     </div>
-    <div class="container" id="under-18">
-      <div class="jumbotron">
-      <h3>Oregon has the most convenient voting system in the country.</h3>
-      <h4>While you have to be at least 18 to vote you can get registered as young as 16, so mark your calendar!</h4>
+    <div class="container">
+      <div class="jumbotron" id="under-16">
+        <h3>Oregon has the most convenient voting system in the country.</h3>
+        <h4>While you have to be at least 18 to vote you can get registered as young as 16, so mark your calendar!</h4>
       </div>
+      <div class="jumbotron" id="register">
+        <h1>Get registered to vote and learn about the Oregon voting process!</h1>
+      </div>
+    </div>
+    <div class="container">
+      <div class="card" id="minor-notice">
+        You can register as early as 16 years old but will be unable to vote until your 18th birthday.
+      </div>
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="card" id="register-link">
+            <button type="submit"><a href="https://secure.sos.state.or.us/orestar/vr/register.do?lang=eng&source=SOS">Register to vote now!</a></button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container" id="mail-in-facts">
       <div class="row">
         <div class="col-md-6">
           <div class="card">
-            <br>
             <div class="card-title">
-            Oregonians have been voting by mail in local elections since 1981.
+              <br>
+              Oregonians have been voting by mail in local elections since 1981.
             </div>
             <div class="card-body">
               <p>​​​​​In 1998, we overwhelmingly voted to expand mail-in voting to primary and general elections. Two years later, Oregon became the first state in the U.S. to conduct a presidential election with mail-in voting. <a href="https://www.opb.org/news/article/history-vote-by-mail-oregon-elections/">Voter turnout was a whopping 79% that year!!</a></p>
@@ -35,11 +53,64 @@
           <iframe width="540" height="315" src="https://www.youtube.com/embed/C4YFMJn2MNs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
       </div>
-    </div>
-    <div class="container" id="register-17">
-      <div class="jumbotron">
-      <h1>Get registered to vote and learn about the Oregon voting process!</h1>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="card">
+              <div class="card-title">
+                <br>
+                Obtaining a Ballot
+              </div>
+              <div class="card-body">
+                <p> Registered voters in Oregon receive their ballot automatically to their registered address. Hence, it's very important to update your voter registration every time you move!
+                </p>
+                <img src="img/arrow-right.png" alt="arrow">
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="card">
+              <div class="card-title">
+                <br>
+                Returning a Ballot
+              </div>
+              <div class="card-body">
+                <p>Ballots need to be returned by a fixed deadline in order to have it counted. A voter may be able to return the ballot in person at an official election drop-box or by mail. 
+                </p>
+                <img src="img/arrow-down.png" alt="arrow">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="card">
+              <div class="card-title">
+                <br>
+                Counting a Ballot
+              </div>
+              <div class="card-body">
+                <p> Counting entails the actual tabulation of votes.
+                </p>
+                <img src="img/the-oregon-way.png" alt="arrow">
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="card">
+              <div class="card-title">
+                <br>
+                Processing a Ballot
+              </div>
+              <div class="card-body">
+                <p> Election officials must first process the ballots before they can be counted. Processing generally entails verifying voter signatures and physically preparing ballots for tabulation. Processing practices can vary widely from state to state. Counting entails the actual tabulation of votes.
+                </p>
+                <img src="img/arrow-left.png" alt="arrow">
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
+      <br> 
     </div>
   </body>
 </html>
