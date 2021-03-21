@@ -23,6 +23,6 @@ $(document).ready(function(){
     $('#under-16').show();
     $('#mail-in-facts').show();
     $('#landing-page').toggle();
-  }
+    }
   })  
 });
